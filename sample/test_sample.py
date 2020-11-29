@@ -8,5 +8,6 @@ class SampleTestCase(TestCase):
     def test_sample(self):
         assert sample() == 1
 
-    # def test_sample_fails(self):
-    #     assert sample() == 2
+
+def test_sample():
+    assert sample() == 1
