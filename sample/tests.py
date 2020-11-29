@@ -1,4 +1,9 @@
-from django.test import TestCase
+from sample.views import sample
 
-# Create your tests here.
 
+def test_sample():
+    assert sample() == 1
+
+
+def test_sample_fails():
+    assert sample() == 2
